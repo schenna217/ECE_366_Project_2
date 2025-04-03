@@ -25,7 +25,7 @@ To run the Fibonacci MIPS program, you need:
 2. Java SDK - Required for running MARS, available at: https://www.oracle.com/java/technologies/javase-downloads.html
 
 ### Steps to Execute the Program:
-Clone the GitHub repository by entering the following command in a terminal: git clone https://github.com/schenna217/ECE_366_Project_1/tree/main/Project_2
+Clone the GitHub repository by entering the following command in a terminal: git clone https://github.com/schenna217/ECE_366_Project_2
 Navigate to the project directory: cd your-project-folder
 Open MARS and load the fibonacci.asm file.
 Set the value of n in memory before running the program (e.g., n is stored as a word in the data segment).

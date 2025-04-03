@@ -25,11 +25,12 @@ To run the Fibonacci MIPS program, you need:
 2. Java SDK - Required for running MARS, available at: https://www.oracle.com/java/technologies/javase-downloads.html
 
 ### Steps to Execute the Program:
-Clone the GitHub repository by entering the following command in a terminal: git clone https://github.com/schenna217/ECE_366_Project_2
-Navigate to the project directory: cd your-project-folder
-Open MARS and load the fibonacci.asm file.
-Set the value of n in memory before running the program (e.g., n is stored as a word in the data segment).
-Assemble and run the program.
-The computed Fibonacci number will be stored in memory at the result address.
-You can verify the output by checking the memory content at result in MARS.
+1. Clone the GitHub repository by entering the following command in a terminal: git clone https://github.com/schenna217/ECE_366_Project_2
+2. Navigate to the project directory: cd your-project-folder
+3. Open MARS and load the fibonacci.asm file.
+4. Set the value of n in memory before running the program (e.g., n is stored as a word in the data segment).
+5. Assemble and run the program.
+6. The computed Fibonacci number will be stored in memory at the result address.
+7. You can verify the output by checking the memory content at result in MARS.
+
 Expected Output: For an input value n, the program computes the nth Fibonacci number iteratively. The result is stored in the result memory location. The approach avoids recursion and efficiently computes the Fibonacci sequence using loop-based addition.

@@ -15,7 +15,7 @@ Team Members:
 - Akshay M. - Assisted in completing and refining the MIPS program.
 
 ## GitHub Repository Link:
-https://github.com/schenna217/ECE_366_Project_1/tree/main/Project_2 
+https://github.com/schenna217/ECE_366_Project_2
 
 ## How to Run the MIPS Program:
 

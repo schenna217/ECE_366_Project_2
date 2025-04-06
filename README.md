@@ -26,6 +26,7 @@ Java SDK - Required for running MARS, available at: https://www.oracle.com/java/
 7. The result is stored in memory at the result label:
   - 1 means the number is odd
   - 0 means the number is even
+
 Expected Output: The MIPS program computes the remainder of m when divided by 2 using repeated subtraction. If the remainder is 1, the program determines the number is odd. The result is stored at the result memory location. The use of the MIPS DIV instruction is intentionally avoided, as per project requirements.
 
 --------------------------------------

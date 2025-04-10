@@ -31,8 +31,9 @@ odd:
 
 # Base case already contains fibonacci result in $a0
 odd_base_case:
-    li $t1, 0        # quotient = 0
-    li $t2, 2        # $t2 = 2
+    li $t1, 0       # quotient = 0
+    li $t2, 2       # $t2 = 2
+    move $t5, $a0   # fibonacci result in $t5 (only for checking) 
     
 loop_odd:
     sge $t0, $a0, $t2   # $t0 = 1 if m >= 2

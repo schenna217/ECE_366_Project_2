@@ -33,6 +33,7 @@ The program operates in the following way:
 3. For n >= 2, the program iteratively computes the nth Fibonacci number using two registers to hold a and b values (representing Fib(n-2) and Fib(n-1) respectively).
 4. Once the Fibonacci number is computed, the program checks if it is odd by subtracting 2 repeatedly instead of using the DIV instruction.
 5. Finally, it stores the result (1 for odd, 0 for even) in the memory label result.
+
 This program uses no recursion and avoids restricted instructions, instead relying on loops and control logic to compute Fibonacci and perform modulo checks.
 
 --------------------------------------
